@@ -1,0 +1,10 @@
+column,data_type,business_definition,quality_rule
+order_id,string,Unique order identifier,Required and unique
+order_date,date,Date the customer placed the order,Required ISO date between 2025-01-01 and today
+customer_segment,category,Commercial customer segment,Student Fresher or Professional after normalization
+city,string,Customer billing city,Required non-empty text
+category,category,Product family,Learning Kit Course Access or Mentor Session
+quantity,integer,Units purchased,Whole number greater than zero
+unit_price,decimal,Price per unit before discount,Non-negative INR amount
+discount_pct,decimal,Percentage discount applied,Between 0 and 100; missing means zero only after justification
+payment_status,category,Latest order settlement state,Paid Pending Failed or Refunded after normalization
