@@ -1,0 +1,29 @@
+# KPI Dictionary & Data Quality Contract
+
+## Project Overview
+
+This project focuses on converting ambiguous business requirements into clearly defined Key Performance Indicators (KPIs) and establishing data quality validation rules for retail order data.
+
+## Objectives
+
+* Define measurable business KPIs.
+* Document KPI formulas and business rules.
+* Identify missing, duplicate, and invalid data.
+* Create data quality validation checks.
+* Summarize findings and recommendations.
+
+## Tools Used
+
+* Python
+* Google Colab
+* Pandas
+* GitHub
+
+## Datasets
+
+* Retail Orders Raw Dataset
+* Retail Data Dictionary Dataset
+
+## Project Status
+
+Data exploration and initial code execution completed. Repository documentation and project files are being organized.
